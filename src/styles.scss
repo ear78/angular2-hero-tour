@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+/* Master Styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway');
+
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+@mixin title{
+      color: #369;
+      font-family: $montserrat;
+      font-size: 250%;
+}
+
+@mixin sub-title {
+    color: #444;
+    font-family: $montserrat;
+    font-weight: 400;
+}
+
+h1 {
+  @include title;
+}
+h2, h3 {
+  @include sub-title;
+}
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: $raleway;
+}
