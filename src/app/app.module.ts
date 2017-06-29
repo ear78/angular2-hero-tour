@@ -10,9 +10,9 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 import { AppComponent } from './app.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { HeroesComponent } from './heroes.component';
-import { DashboardComponent } from './dashboard.component';
+import { HeroDetailComponent } from './components/heroDetail/hero-detail.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeroService } from './services/hero.service';
 
 

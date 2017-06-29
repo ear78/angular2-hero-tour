@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { HeroService } from './services/hero.service';
-import { Hero } from './hero';
-import { HeroDetailComponent } from './hero-detail.component';
+import { HeroService } from '../../services/hero.service';
+import { Hero } from '../../hero';
+import { HeroDetailComponent } from '../heroDetail/hero-detail.component';
 
 @Component ({
     selector: 'my-dashboard',
     templateUrl: './dashboard.component.html',
-    styleUrls: [ './dashboard.component.css' ]
+    styleUrls: [ './dashboard.component.scss' ]
 })
 
 export class DashboardComponent {
