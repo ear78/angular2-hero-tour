@@ -7,11 +7,12 @@ import { HeroesComponent } from './heroes.component';
   template: `
         <h1>{{title}}</h1>
         <nav>
-        <a routerLink="/dashboard">dashboard</a>
-        <a routerLink="/heroes">heroes</a>
+            <a routerLink="/dashboard" routerLinkActive="active">dashboard</a>
+            <a routerLink="/heroes" routerLinkActive="active">heroes</a>
         </nav>
         <router-outlet></router-outlet>
-  `
+  `,
+  styleUrls: [ './app.component.css' ]
   })
 
   export class AppComponent {
