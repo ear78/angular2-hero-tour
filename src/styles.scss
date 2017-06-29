@@ -22,9 +22,10 @@ h1 {
 }
 h2, h3 {
   @include sub-title;
+
 }
 body {
-  margin: 2em;
+  margin: 2em 1em;
 }
 body, input[text], button {
   color: #888;

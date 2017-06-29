@@ -1,5 +1,5 @@
-<h3>Top Heroes</h3>
-<div class="grid grid-pad">
+<h3>Top Heroes <i class="material-icons">directions_run</i></h3>
+<div class="grid grid-pad top-heroes">
     <a *ngFor="let hero of heroes" [routerLink]="['/detail', hero.id]" class="col-1-4">
         <div class="module hero">
             <h4>{{hero.name}}</h4>
