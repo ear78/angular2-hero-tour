@@ -18,10 +18,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .2s ease;
 }
 i {
     margin-left: 5px;
     font-size: 24px;
+    transition: all .2s ease;
 }
 h4 {
   position: relative;
@@ -60,10 +62,16 @@ h4 {
 @media (min-width: 600px) {
     .top-heroes {
         flex-direction: row;
+        div {
+            margin: 8px;
+        }
     }
-  .module {
-    font-size: 10px;
-    max-height: 75px; }
+    h3 {
+        font-size: 1.75em;
+    }
+    i {
+        font-size: 30px;
+    }
 }
 @media (max-width: 1024px) {
   .grid {

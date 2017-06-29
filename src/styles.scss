@@ -25,7 +25,10 @@ h2, h3 {
 
 }
 body {
-  margin: 2em 1em;
+  margin: 2em 0em;
+  max-width: 650px;
+  margin: 32px auto;
+  padding: 0 10px;
 }
 body, input[text], button {
   color: #888;
