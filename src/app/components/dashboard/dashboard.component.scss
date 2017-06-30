@@ -27,10 +27,18 @@ i {
 }
 h4 {
   position: relative;
+  margin: 0;
+  transition: all .2s ease;
 }
 .top-heroes {
     display: flex;
     flex-direction: column;
+}
+.dashboard-line {
+    width: 275px;
+    height: 1px;
+    background: #eee;
+    margin: 0 auto 30px;
 }
 .grid {
   margin: 0;
@@ -71,6 +79,9 @@ h4 {
     }
     i {
         font-size: 30px;
+    }
+    h4 {
+        margin: 20px 0;
     }
 }
 @media (max-width: 1024px) {

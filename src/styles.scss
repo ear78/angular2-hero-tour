@@ -5,10 +5,13 @@
 $montserrat: 'Montserrat', sans-serif;
 $raleway: 'Raleway', sans-serif;
 
+$seablue: #607D8B;
+$white: #fff;
+
 @mixin title{
       color: #369;
       font-family: $montserrat;
-      font-size: 250%;
+      font-size: 2em;
 }
 
 @mixin sub-title {

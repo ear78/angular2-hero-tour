@@ -17,14 +17,33 @@
         width: 60px;
         font-family: $raleway;
         text-transform: uppercase;
+        &:hover {
+            cursor: pointer;
+            opacity: .9;
+        }
     }
 }
 .selected {
     background-color: #CFD8DC !important;
     color: white;
 }
+
+.selected-hero {
+    button {
+        height: 45px;
+        border: none;
+        background: white;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        font-family: raleway;
+        border-radius: 0px;
+        width: 110px;
+        text-transform: uppercase;
+        background: $seablue;
+        color: $white;
+    }
+}
 .heroes {
-  // margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 100%;
@@ -37,7 +56,7 @@
     position: absolute;
     right: 5px;
     font-family: $raleway;
-
+    box-shadow: 1px 1px 1px rgba(0,0,0,.1);
   }
 }
 .heroes li {
@@ -86,4 +105,13 @@ button.delete {
   margin-right: .8em;
   background-color: gray !important;
   color:white;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    i {
+        font-family: 'Material Icons';
+        margin-left: 5px;
+    }
 }
